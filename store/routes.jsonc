@@ -1,5 +1,5 @@
 {
     "store.custom#about-us": {
-      "path": "/store/blocks/about-us.jsonc"
+      "path": "/about-us"
     }
 }
