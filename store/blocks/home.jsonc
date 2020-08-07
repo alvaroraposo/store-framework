@@ -26,13 +26,13 @@
     }
   },
   "image#desktop": {
-    "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",      
+    "props": {            
+      "alt": "Coffee Makers Collection",
       "link": {
         "url": "/small-appliances/coffee-makers"
-      } ,
-      "alt": "Coffee Makers Collection",
-      "maxWidth": "100"
+      },
+      "maxWidth": "100",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1"
     }
   },  
   "image#mobile": {
