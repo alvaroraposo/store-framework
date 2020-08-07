@@ -1,13 +1,14 @@
 {
     "store.custom#landing": { 
       "blocks": [
-        "image#landingbanner",
+        "image",
         "search-result-layout.customQuery"
       ]
     },
 
-    "image#landingbanner": {
+    "image": {
         "props": {
+            "src": "https://static3.tcdn.com.br/img/img_prod/311840/bola_adidas_telstar_18_sala_65_42471_1_20191126172410.jpg",
             "minWidth": "100%"
         }
     },
