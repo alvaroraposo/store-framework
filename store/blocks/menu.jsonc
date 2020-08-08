@@ -55,17 +55,7 @@
         ],
     
         "props":{
-            "orientation": "vertical",
-            "items": [
-                {
-                    "id": "menu-item-electronics"
-                }
-            ]
-        }
-    },
-    "menu-item#electronics": {
-        "props": {
-            "id": "menu-item-electronics"
+          "orientation": "vertical"
         }
     }    
 }
