@@ -13,12 +13,18 @@
     "menu-item#major-appliances": {
         "children": [
             "vtex.menu@2.x:submenu#major"
-        ]
+        ],
+        "props": {
+            "id": "menu-item-major-appliances"
+        }
     },
     "vtex.menu@2.x:submenu#major":{
         "children":[
             "vtex.menu@2.x:menu#major"
-        ]
+        ],
+        "props": {
+            "id": "vtex.menu@2.x:submenu#major"
+        }
     },
     "vtex.menu@2.x:menu#major": {
         "children": [
@@ -27,8 +33,13 @@
             "menu-item#washers"
         ],
     
-        "props":{
-          "orientation": "vertical"
+        "props":{  
+            "items": [
+                {
+                    "id": "menu-item-major-appliances"
+                }
+            ],
+            "orientation": "vertical"
         }
     },
     "vtex.menu@2.x:submenu#small":{
