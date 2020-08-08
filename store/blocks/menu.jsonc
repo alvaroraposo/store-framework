@@ -58,9 +58,7 @@
     },
     "vtex.menu@2.x:menu#electronics": {
         "children": [            
-            "menu-item#cameras", 
-            "menu-item#laptops",
-            "menu-item#tvs"
+            "menu-item#electronics"
         ],
     
         "props":{
