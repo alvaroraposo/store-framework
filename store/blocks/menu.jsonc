@@ -49,11 +49,23 @@
     },
     "vtex.menu@2.x:menu#electronics": {
         "children": [            
-            "menu-item#electronics"
+            "menu-item#cameras", 
+            "menu-item#laptops",
+            "menu-item#tvs"
         ],
     
         "props":{
-          "orientation": "vertical"
+            "items": [
+                {
+                    "id": "menu-item-electronics"
+                }
+            ],
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#electronics": {
+        "props": {
+            "id": "menu-item-electronics"
         }
     }    
 }
